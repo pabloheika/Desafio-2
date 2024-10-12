@@ -10,8 +10,57 @@
 
 body {
   background-color: #FFD9EC;
+  font-size: 25px;
 }
 
 .fundoforte {
   background-color: #FF69B4;
+  color: #E4EEF1;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header {
+  font-size: 28px;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  justify-content: flex-start;
+}
+header section {
+  min-width: 316px;
+}
+header a {
+  color: #E4EEF1;
+}
+header nav {
+  min-width: 300px;
+  width: 100%;
+  padding-left: 5vw;
+  max-width: 800px;
+}
+
+main section {
+  padding: 20px 3vw 20px 3vw;
+}
+
+footer {
+  font-size: 20px;
+  padding: 20px 5vw 20px 5vw;
+}
+footer p {
+  text-align: center;
+}
+footer img {
+  width: 57px;
+  height: 57px;
+}
+footer .largura {
+  width: 182px;
+}
+footer .esquerda {
+  justify-content: flex-end;
 }/*# sourceMappingURL=estilo.css.map */
